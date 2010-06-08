@@ -269,6 +269,14 @@
 		<dict>
 			<key>begin</key>
 			<string>=|-|~</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.ruby.embedded.start.haml</string>
+				</dict>
+			</dict>
 			<key>contentName</key>
 			<string>source.ruby.embedded.haml</string>
 			<key>end</key>
